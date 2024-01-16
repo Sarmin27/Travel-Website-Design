@@ -302,7 +302,7 @@ hr {
 }
 .newsletter-section-row1-img {
 
-    background: lightgray 50% ;
+    /* background: lightgray 50% ; */
     
 }
 .travel-com {
@@ -329,6 +329,62 @@ hr {
     font-size: 1.2rem;
     font-weight: 400;
 }
+/* footer section styles  */
+.footer-section{
+    display: flex;
+    margin-top: 75px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer-descryption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    
+}
+
+.footer-descryption img{
+    width:3.1rem;
+    height: 3rem;
+    margin-right: 16px;
+    
+
+}
+.footer-descryption h3 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+.text{
+  text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+   
+}
+.social a{
+    margin:20px;
+    color:black;
+    
+}
+.line {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: auto;
+    margin-bottom: 50px;
+}
+.last-pera{
+    text-align: center;
+    margin-bottom: 110px;
+}
 
 
 
@@ -351,7 +407,8 @@ hr {
     .choose-section-row2{
        
         margin: 0 auto;
-        width: 100%;  
+        width: 100%; 
+         
         
     }
     
