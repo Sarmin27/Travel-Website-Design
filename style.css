@@ -275,6 +275,7 @@ nav div img{
 }
 .destination-section .destination-section-descryption{
     text-align: center;
+    margin-bottom: 50px;
     
 }
 .destination-section-descryption h3 {
@@ -286,9 +287,9 @@ nav div img{
 }
 .container{
   
-    width: 90%;
+  
     min-height: 900px;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 300px);
