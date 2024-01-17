@@ -19,7 +19,6 @@ body{
    margin-bottom: 32px;
 }
 .choose-section-descryption{
-    /* text-align: center; */
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -29,7 +28,16 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 125px;
+    align-items: center;
+    width: 90%;
+    margin: 36px auto;
+    
+
+}
+.nav-menu{
+    display: none; 
+    font-size: 2.4rem;
+
 }
 .logo-heading-container{
     display: flex;
@@ -44,10 +52,11 @@ nav div h3{
 nav ul {
     display: flex;
     align-items: center;
+    gap: 44px;
 }
 nav ul li{
     list-style: none;
-    margin-left: 44px;
+   
 
 }
 nav ul li a {
@@ -67,6 +76,7 @@ nav div img{
     
 
 }
+/* banner section styles  */
 /* banner section styles  */
 .banner{
     background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url('images/Group\ 13\ \(1\)\ \(1\).png');
@@ -100,6 +110,10 @@ nav div img{
 
 }
 
+.form_container{
+    display: flex;
+    gap: 24px;
+}
 .banner-row2 form button {
     width: 174px;
     height: 52px;
@@ -111,7 +125,6 @@ nav div img{
     font-weight: 400;
     text-align: start;
     padding-left:  20px;
-    margin-left: 24px;
 }
 .banner-row2 form select {
     width: 174px;
@@ -124,7 +137,6 @@ nav div img{
     border: 0;
     text-align: start;
     padding-left:  20px;
-    margin-left: 24px;
 
 }
 
@@ -139,12 +151,22 @@ nav div img{
     width: 174px;
     height: 52px;
     border-radius: 8px;
-    background: #FF5400;
+    background: #FF5400 !important;
     color: #FFF;
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
     border: 0;
+}
+
+.banner-row2 .form_container .find_btn button span,
+.banner-row2 .form_container .find_btn button i{
+    color: white;
+    font-weight: 700;
+}
+
+.banner-row2 .form_container .find_btn button i{
+    margin-right: 10px;
 }
 
  /* Our Popular Tours section styles  */
@@ -411,6 +433,17 @@ hr {
          
         
     }
+    nav ul{
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+    }
+    .form_container{
+        flex-direction: column;
+    }
+
+
     
     
 }

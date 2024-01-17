@@ -26,33 +26,50 @@
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="nav-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
         <!-- banner section  -->
         <section class="banner">
-          
-                <div class="banner-row1">
-                    <h1>Explore Your Travel</h1>
-                    <p>This channel will tell you about the places where you can go, when to go, select type and search now.</p>
-                </div>
-                <div class="banner-row2">
-                    <form action="">
-                        <button>Where go</button>
-                        <select name="travel" id="time">
-                            <option value="a">When</option>
-                            <option value="b">Winter</option>
-                            <option value="c">Rainy</option>
-                            <option value="">Spring</option>
-                        </select>
-                        <select name="travel" id="time">
-                            <option value="a">Select Type</option>
-                            <option value="b">Winter</option>
-                            <option value="c">Rainy</option>
-                            <option value="">Spring</option>
-                        </select>
-                
-                            <button class="btn">Find Now</button>
-                    </form>
-                </div>
+
+            <div class="banner-row1">
+                <h1>Explore Your Travel</h1>
+                <p>This channel will tell you about the places where you can go, when to go, select type and search now.</p>
+            </div>
+
+            <div class="banner-row2">
+                <form action="">
+                    <div class="form_container">
+                        <div class="where_btn">
+                            <button>Where go</button>
+                        </div>
+
+                        <div class="time">
+                            <select name="travel" id="time">
+                                <option >When</option>
+                                <option value="Winter">Winter</option>
+                                <option value="Rainy">Rainy</option>
+                                <option value="Spring">Spring</option>
+                            </select>
+                        </div>
+
+                        <div class="location">
+                            <select name="travel" id="time">
+                                <option >Select Type</option>
+                                <option value="b">Winter</option>
+                                <option value="c">Rainy</option>
+                                <option value="">Spring</option>
+                            </select>
+                        </div>
+
+                        <div class="find_btn">
+                            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i><span>Find Now</span></button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
          </section>
     </header>
     <main>
